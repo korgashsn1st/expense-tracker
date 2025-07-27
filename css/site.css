@@ -1,0 +1,119 @@
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 15px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    color: black;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+    .table th, .table td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    .table th {
+        background-color: #f2f2f2;
+    }
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.page {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    min-width: 250px;
+    background-color: #343a40;
+    color: white;
+}
+
+@media (max-width: 767.98px) {
+    .sidebar {
+        min-width: auto;
+    }
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.nav-link {
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+}
+
+    .nav-link:hover {
+        background-color: #495057;
+        color: white;
+    }
+
+.navbar-brand {
+    color: white;
+    font-size: 20px;
+}
+
+.offcanvas {
+    background-color: #343a40;
+    color: white;
+}
+
+.offcanvas-title {
+    color: white;
+}
